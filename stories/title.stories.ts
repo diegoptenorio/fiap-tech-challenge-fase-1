@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import Title from "../app/components/title";
 
 const meta = {
-    title: "Example/Title",
+    title: "Components/Title",
     component: Title,
     parameters: {
         type: "",
