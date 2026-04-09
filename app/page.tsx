@@ -4,7 +4,12 @@ import User from "./components/user";
 export default function Home() {
     return (
         <Template>
-            <Template.Header><User /></Template.Header>
+            <Template.Header>
+                <User />
+            </Template.Header>
+            <Template.Main>
+                Olá, Joana :)
+            </Template.Main>
         </Template>
     );
 }
