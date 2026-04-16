@@ -1,15 +1,18 @@
 import Template from "./template";
 import User from "./components/user";
+import Menu from "./components/menu";
+import Balance from "./components/balance";
 
-export default function Home() {
-    return (
-        <Template>
-            <Template.Header>
-                <User />
-            </Template.Header>
-            <Template.Main>
-                Olá, Joana :)
-            </Template.Main>
-        </Template>
-    );
-}
+const Home = () => (
+    <Template>
+        <Template.Header>
+            <User />
+        </Template.Header>
+        <Template.Main>
+            <Menu />
+            <Balance />
+        </Template.Main>
+    </Template>
+);
+
+export default Home;
